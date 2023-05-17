@@ -1,19 +1,22 @@
 .position-absolute{
     top: 0;
     font-size: 2rem;
-    color: #198754;
+    /* color: #198754; */
 }
 .right{
     right: 5px;
+    color: black;
+
 }
 .left{
     left: 5px;
+    color: #50ce93;
 }
 img, .img-box{
     width: 100%;
     height: 300px;
 }
 img{
-    object-fit: cover;
-    object-position: center;
+    object-fit: contain;
+    /* object-position: center; */
 }

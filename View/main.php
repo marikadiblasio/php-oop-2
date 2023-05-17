@@ -1,5 +1,5 @@
 <main">
-            <div class="container border border-success-subtle">
+            <div class="container">
                 <div class="row">
                     <?php foreach($products as $product){ ?> 
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
