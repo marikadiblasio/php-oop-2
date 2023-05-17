@@ -9,5 +9,9 @@ class Food extends Product
         parent::__construct($name, $category, $price, $image, $new, $brand);
         $this ->diet = $diet;
         $this ->kind_of_food = $kind_of_food;
-    } 
+    }
+    public function getDetails(){{
+        return $this->age;
+    }
+}
 }

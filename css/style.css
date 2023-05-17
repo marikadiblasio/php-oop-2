@@ -1,8 +1,13 @@
 .position-absolute{
     top: 0;
-    right: 0;
     font-size: 2rem;
     color: #198754;
+}
+.right{
+    right: 5px;
+}
+.left{
+    left: 5px;
 }
 img, .img-box{
     width: 100%;

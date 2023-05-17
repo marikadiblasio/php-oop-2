@@ -8,4 +8,8 @@ class Toy extends Product
     public function __construct(string $name, $category, float $price, string $image, bool $new, string $brand = 'none'){
         parent::__construct($name, $category, $price, $image, $new, $brand);
     } 
+    public function getDetails(){{
+        return $this->indoor_outdoor;
+    }
+}
 }
