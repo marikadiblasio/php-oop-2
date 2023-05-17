@@ -4,3 +4,11 @@
     font-size: 2rem;
     color: #198754;
 }
+img, .img-box{
+    width: 100%;
+    height: 300px;
+}
+img{
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,5 +1,5 @@
 <?php 
-include __DIR__ .'/Category.php';
+include_once __DIR__ .'/Category.php';
 /**
  * Class Product
  */
