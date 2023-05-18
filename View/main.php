@@ -17,8 +17,8 @@
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item"><?php echo "{$product->price}&euro;" ?></li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <div><?php echo "{$product->type}";?></div>
-                                    <div>
+                                    <div><?php echo get_class($product);?></div>
+                                    <div class="small">
                                     <?php if($product->getDetails()){
                                      echo $product->getDetails(); }?>
                                     </div>
